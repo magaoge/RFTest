@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.8.5 on win32)" generated="20220213 10:36:09.305" rpa="false" schemaversion="2">
+<suite id="s1" name="Test1" source="C:\Users\MAG\PycharmProjects\pyRFProject\test1">
+<suite id="s1-s1" name="Test" source="C:\Users\MAG\PycharmProjects\pyRFProject\test1\test.robot">
+<test id="s1-s1-t1" name="用例-嵌套类型数据类型">
+<kw name="Log" library="BuiltIn">
+<arg>${ListAndDict}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220213 10:36:09.479" level="INFO">[{'name': 'magaoge', 'age': 18}, {'name': 'magaoge2', 'age': 20}]</msg>
+<status status="PASS" starttime="20220213 10:36:09.479" endtime="20220213 10:36:09.479"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${ListAndDict[0]}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220213 10:36:09.480" level="INFO">{'name': 'magaoge', 'age': 18}</msg>
+<status status="PASS" starttime="20220213 10:36:09.479" endtime="20220213 10:36:09.480"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${ListAndDict[0]["name"]}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220213 10:36:09.480" level="INFO">magaoge</msg>
+<status status="PASS" starttime="20220213 10:36:09.480" endtime="20220213 10:36:09.480"/>
+</kw>
+<status status="PASS" starttime="20220213 10:36:09.478" endtime="20220213 10:36:09.480"/>
+</test>
+<status status="PASS" starttime="20220213 10:36:09.325" endtime="20220213 10:36:09.481"/>
+</suite>
+<status status="PASS" starttime="20220213 10:36:09.307" endtime="20220213 10:36:09.481"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test1">Test1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test">Test1.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

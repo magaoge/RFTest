@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.8.5 on win32)" generated="20220216 21:05:40.687" rpa="false" schemaversion="2">
+<suite id="s1" name="Results" source="C:\Users\MAG\PycharmProjects\pyRFProject\4测试用例\results">
+<suite id="s1-s1" name="测试自定义第三方库" source="C:\Users\MAG\PycharmProjects\pyRFProject\4测试用例\results\测试自定义第三方库.robot">
+<test id="s1-s1-t1" name="测试自定义第三方库">
+<kw name="Out Put Log" library="OutPut">
+<arg>参数3</arg>
+<arg>参数4</arg>
+<msg timestamp="20220216 21:05:40.710" level="INFO">参数3</msg>
+<msg timestamp="20220216 21:05:40.710" level="INFO">参数4</msg>
+<status status="PASS" starttime="20220216 21:05:40.710" endtime="20220216 21:05:40.710"/>
+</kw>
+<status status="PASS" starttime="20220216 21:05:40.710" endtime="20220216 21:05:40.710"/>
+</test>
+<status status="PASS" starttime="20220216 21:05:40.705" endtime="20220216 21:05:40.711"/>
+</suite>
+<status status="PASS" starttime="20220216 21:05:40.689" endtime="20220216 21:05:40.711"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Results">Results</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="测试自定义第三方库">Results.测试自定义第三方库</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220216 21:05:40.709" level="ERROR">Error in file 'C:\Users\MAG\PycharmProjects\pyRFProject\4测试用例\results\测试自定义第三方库.robot' on line 3: Variable '${参数1}' not found.</msg>
+</errors>
+</robot>
